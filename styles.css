@@ -137,9 +137,9 @@
   .dropcap {
     float: left;
     font-size: 6rem;
-    margin: 0.1em 0.1em 0.1em 0;
+    margin: 0 .1em 0 0;
     line-height: 1;
-    padding: 0.1em;
+    padding: 0 0.1em 0.1em 0.1em;
   }
 
   .sr-only:not(:focus):not(:active) {
