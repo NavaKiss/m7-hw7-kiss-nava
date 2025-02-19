@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #7891b8;
+    --primary-color: #5f829e;
     --text-color: white;
     --text-color-lighter: white;
     --secondary-color: #1b2d47;
     --warn-color: #FDD219;
-    --danger-color: #FA5456;
+    --danger-color: #165d69;
     --white: #FFFFFF;
     --off-white: #F1F2F4;
     --gray: #A1A1A1;
@@ -67,7 +67,7 @@
   main > section, main > article {
     margin-bottom: 96px;
     box-shadow: 4px 4px 10px var(--gray);
-    background-color: var(--white);
+    background-color:  #5f829e;
   }
   
   main > section.hero {
@@ -87,12 +87,12 @@
     font-size: 2rem;
     font-weight: 700;
     text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px, var(--gray) 2px 2px 2px;
-    padding: 0 48px;
     margin: 0;
   }
   
   section.hero > button {
     background-color: var(--secondary-color);
+    color: white;
     border: none;
     padding: 12px 24px;
     border-radius: 12px;
@@ -118,11 +118,25 @@
   
   footer {
     margin-top: auto;
-    background-color: var(--gray);
+    background-color: #1b2d47;
     text-align: center;
     text-transform: uppercase;
     padding: 24px 0;
     color: var(--off-white);
+  }
+
+  article button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    text-transform: uppercase;
+  }
+
+  .dropcap {
+    float: left;
+    font-size: 6rem;
   }
   
   /* tooltip code below */
