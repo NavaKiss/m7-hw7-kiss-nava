@@ -137,6 +137,19 @@
   .dropcap {
     float: left;
     font-size: 6rem;
+    margin: 0.1em 0.1em 0.1em 0;
+    line-height: 1;
+    padding: 0.1em;
+  }
+
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset (50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
   }
   
   /* tooltip code below */
