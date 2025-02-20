@@ -173,13 +173,24 @@
   /* show tooltip on hover/focus */
   span.tooltip:hover > span,
   span.tooltip:focus > span {
-    display: inline;
+    visibility: visible;
   }
   
   /* styling for tooltip bubble */
   span.tooltip span {
-    display: none;
-  }
+    position: absolute;
+    visibility: hidden;
+    width: 120px;
+    background-color: #1b2d47;
+    color:#FFFFFF;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    font-size: 12px;
+      }
   
   /* styling for tooltip bubble arrow */
   span.tooltip span::after {
