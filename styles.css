@@ -151,6 +151,11 @@
     white-space: nowrap;
     width: 1px;
   }
+
+  section.hero {
+    position:sticky;
+    top: 0;
+  }
   
   /* tooltip code below */
   
