@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #5f829e;
+    --primary-color: #2a5072;
     --text-color: white;
     --text-color-lighter: white;
-    --secondary-color: #1b2d47;
+    --secondary-color: #ffffff;
     --warn-color: #FDD219;
     --danger-color: #165d69;
     --white: #FFFFFF;
@@ -67,7 +67,7 @@
   main > section, main > article {
     margin-bottom: 96px;
     box-shadow: 4px 4px 10px var(--gray);
-    background-color:  #5f829e;
+    background-color: #132433;
   }
   
   main > section.hero {
@@ -91,7 +91,7 @@
   }
   
   section.hero > button {
-    background-color: var(--secondary-color);
+    background-color: #132433;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -126,7 +126,7 @@
   }
 
   article button {
-    background-color: var(--secondary-color);
+    background-color:#2a5072;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -160,7 +160,7 @@
   /* tooltip code below */
   
   span.tooltip {
-    color: var(--danger-color);
+    color: #c2ecff;
     position: relative;
     cursor: pointer;
   }
