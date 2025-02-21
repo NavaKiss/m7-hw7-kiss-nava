@@ -10,8 +10,17 @@
     --gray: #A1A1A1;
   }
   
+@font-face {
+  font-family: 'ElanorExtLt';
+  src: url(ElanorFreePersonalUse-ExtLt.otf);
+}
+
+@font-face {
+  font-family: 'ElanorExBd';
+  src: url(ElanorFreePersonalUse-ExBdIt.otf);
+}
   body {
-    font-family: 'ElanorFreePersonalUse-ExtLt';
+    font-family: 'ElanorExtLt';
     margin: 0;
     font-size: 1.3rem;
     color: var(--text-color);
@@ -97,6 +106,7 @@
     padding: 12px 24px;
     border-radius: 12px;
     text-transform: uppercase;
+    font-family: 'ElanorExBd' ;
   }
   
   main article {
@@ -132,6 +142,7 @@
     padding: 12px 24px;
     border-radius: 12px;
     text-transform: uppercase;
+    font-family: 'ElanorExBd';
   }
 
   .dropcap {
